@@ -1,0 +1,36 @@
+DEPLOYMENT EVIDENCE
+
+Project: Superstore Sales Dashboard
+
+Deployment Platform:
+Streamlit Community Cloud
+
+Deployment Status:
+Successfully deployed and accessible online.
+
+Application URL:
+https://deepika-superstore-dashboard.streamlit.app/
+
+Deployment Verification:
+The deployed dashboard was opened successfully and verified.
+
+Verified Dashboard Components:
+- Superstore Sales Dashboard title
+- Total Sales: $2,297,200.86
+- Total Profit: $286,397.02
+- Total Orders: 5,009
+- Average Sales: $229.86
+- Sales by Category visualization
+- Profit by Category visualization
+- Sales by Region visualization
+- Dataset Preview
+- Top 3 Insights
+
+Deployment Result:
+The application loads successfully and displays the expected dashboard metrics and visualizations.
+
+Evidence:
+A screenshot of the successfully deployed dashboard is maintained as deployment evidence.
+
+Date:
+09 September 2026
