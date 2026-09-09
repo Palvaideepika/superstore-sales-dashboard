@@ -13,8 +13,9 @@ st.write("Interactive analysis of Superstore sales and profit data.")
 
 # Load dataset
 df = pd.read_csv(
-    "data/Sample - Superstore.csv",
+    "Sample - Superstore.csv",
     encoding="latin1"
+)
 )
 
 # Convert dates
