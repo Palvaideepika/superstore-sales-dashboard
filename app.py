@@ -16,7 +16,7 @@ df = pd.read_csv(
     "Sample - Superstore.csv",
     encoding="latin1"
 )
-)
+
 
 # Convert dates
 df["Order Date"] = pd.to_datetime(df["Order Date"])
