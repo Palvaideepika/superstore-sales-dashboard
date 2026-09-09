@@ -1,0 +1,27 @@
+ROLLBACK EVIDENCE
+
+Project: Superstore Sales Dashboard
+
+Deployment Version:
+Version 1.0
+
+Rollback Strategy:
+The project is maintained using GitHub version control.
+Each stable version is committed to the repository.
+
+Rollback Procedure:
+1. Identify the last stable GitHub commit.
+2. Restore the stable version using Git.
+3. Push the restored version to the repository.
+4. Redeploy the application from the restored version.
+5. Verify that the dashboard loads successfully.
+
+Current Stable Version:
+Version 1.0
+
+Rollback Status:
+Rollback procedure documented and ready for use.
+
+Evidence:
+The GitHub repository will contain the project files and commit history,
+which provides version history for restoring a previous stable version.
