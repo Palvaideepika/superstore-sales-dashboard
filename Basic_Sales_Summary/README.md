@@ -25,6 +25,27 @@ The following key performance indicators were calculated:
 ## Formulas Used
 
 ### Total Sales
-
-```excel
 =SUM(Sales_Column)
+### Average Sales
+=AVERAGE(Sales_Column)
+### Transaction Count
+=COUNTA(Order_ID_Column)-1
+## Result
+
+The Summary sheet contains:
+
+Total Sales
+Average Sales
+Transaction Count
+
+All three calculated values were manually verified against the dataset.
+
+## Tools Used
+Microsoft Excel
+GitHub
+## Files
+Basic_Sales_Summary.xlsx – Excel workbook containing the dataset and Summary sheet.
+README.md – Documentation of the task and methodology.
+### Conclusion
+
+A basic sales summary was successfully created using Microsoft Excel. The calculated KPIs provide a simple overview of the sales data and were manually verified for accuracy.
