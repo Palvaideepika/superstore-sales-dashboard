@@ -1,1 +1,82 @@
+# Superstore Data Quality Audit
+
+## Project Overview
+
+This project focuses on performing a data quality audit on the Sample Superstore dataset using Python and Pandas. The objective is to identify missing values, duplicate records, invalid values, and inconsistencies, then perform initial data cleaning and document the findings.
+
+## Objectives
+
+* Identify and analyze missing values.
+* Detect duplicate records.
+* Check numeric values for potential errors.
+* Validate date fields and identify inconsistencies.
+* Clean the dataset and prepare an audit report.
+
+## Tools & Technologies
+
+* Python
+* Pandas
+* NumPy
+* Google Colab
+
+## Project Workflow
+
+### 1. Data Loading
+
+Loaded the Sample Superstore CSV dataset into Google Colab using Pandas and inspected its structure.
+
+### 2. Missing Value Analysis
+
+* Checked missing values in each column.
+* Calculated missing-value counts and percentages.
+* Identified fields requiring further review.
+
+### 3. Duplicate Detection
+
+* Identified exact duplicate records.
+* Counted duplicate rows before cleaning.
+
+### 4. Data Validation
+
+Checked for:
+
+* Negative sales
+* Zero or negative quantities
+* Discounts outside the 0–1 range
+* Invalid order and shipping dates
+* Shipping dates earlier than order dates
+
+Negative profit was treated as a possible business outcome rather than automatically classified as an error.
+
+### 5. Data Cleaning
+
+* Removed exact duplicate records.
+* Removed rows with missing values in essential fields (Order ID, Order Date, and Sales).
+* Saved the resulting dataset as a cleaned CSV file.
+
+### 6. Audit Documentation
+
+Prepared a summary of the audit and an issue log to record the checks performed, findings, and recommended actions.
+
+## Deliverables
+
+* `Superstore_Cleaned.csv` – cleaned dataset
+* `Audit_Report.csv` – summary of audit metrics
+* `Issue_Log.csv` – data quality checks and recommended actions
+
+## Key Learnings
+
+* Data inspection and validation using Pandas.
+* Identifying missing values and duplicate records.
+* Performing basic data cleaning.
+* Checking numeric and date consistency.
+* Documenting data quality findings.
+
+## Conclusion
+
+This project provided practical experience in data quality assessment and preprocessing. The audit and cleaning process helped organize the dataset for further analysis, while potential anomalies were documented for investigation instead of being automatically changed.
+
+## Author
+
+Palvai Deepika
 
