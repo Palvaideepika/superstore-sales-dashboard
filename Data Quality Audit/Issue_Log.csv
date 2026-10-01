@@ -1,0 +1,9 @@
+Data Quality Check,Count,Action
+Missing values,18000,Review missing fields; remove rows only for missing essential fields
+Duplicate records,0,Remove exact duplicate rows
+Negative sales,0,Investigate before correcting
+Zero or negative quantity,0,Investigate unusual quantities
+Invalid discounts,0,Review values outside 0 to 1
+Invalid order dates,5952,Review and correct if possible
+Invalid ship dates,6096,Review and correct if possible
+Ship date before order date,0,Investigate date inconsistencies

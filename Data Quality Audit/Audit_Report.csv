@@ -1,0 +1,9 @@
+Metric,Result
+Original row count,9994
+Original column count,22
+Missing values (original),18000
+Duplicate rows (original),0
+Cleaned row count,4042
+Rows removed,5952
+Missing values (cleaned),1303
+Duplicate rows (cleaned),0
